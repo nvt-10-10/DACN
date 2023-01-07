@@ -1,0 +1,460 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 99%;
+}
+
+.boxcenter {
+    width: 80%;     /* này đặt nó khoảng 60% đến 80% thì vừa ổn quá thì xấu nha */
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.header {
+    /* background-color: rgb(255, 215, 222);  */
+    background-image: linear-gradient(120deg, #ffcde0 0%, #5bbeec 50%, #ffcde0 100%);
+    border: 1px #CCC solid;
+    /* color: blue;   //này mình đặt lại cho phù hợp màu, nhìn hài hòa   */
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.footer {
+    background-image: linear-gradient(120deg, #ffcde0 0%, #5bbeec 50%, #ffcde0 100%);
+    border: 1px rgb(13, 190, 190) solid;
+    font-size: 0.8vw;
+    /* color: blue;   //này mình đặt lại cho phù hợp màu, nhìn hài hòa   */
+    color: #333;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 20px;
+    font-size: 1.8vw;
+}
+
+.menu {
+    background-color: rgb(255, 215, 222);
+    color: #CCC;
+    border-radius: 5px;
+}
+
+.boxtrai {
+    float: left;
+    width: 74%;
+    text-align:left;   /* dòng này để center là vừa đẹp, vì nó cân đối bố cục hơn */
+}
+
+.boxphai {
+    float: left;
+    width: 24%;
+}
+
+.boxtitle {
+    color: #333;
+    padding: 10px;
+    background-color: rgb(201, 237, 250);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #CCC solid;
+}
+
+.boxcontent {
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.boxcontent2 {
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    background-color: #EEE;
+}
+
+.boxfooter {
+    padding: 10px;
+    background-color: #EEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+
+.banner {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    height: 300px;
+}
+
+.boxsp {
+    float: left;
+    width: 32%;
+    min-height: 300px;
+    border: 1px #EEE solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.boxsp .img {
+    min-height: 230px;
+    text-align: center;
+}
+
+.img img {
+    height: 220px; 
+    width: 220px;
+    background-size: contain;
+}
+
+.menu ul {
+    padding: 0px 10px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color: white;
+    font-size: 0.6vw;
+}
+
+
+/* box tài khoản*/
+
+.formtaikhoan {
+    line-height: 150%;
+}
+
+.formtaikhoan input[type="text"],
+.formtaikhoan input[type="email"],
+.formtaikhoan input[type="password"],
+.frmcontent input[type="text"] {
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="checkbox"] {
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="submit"],
+.frmcontent input[type="submit"],
+.frmcontent input[type="reset"],
+.formtaikhoan input[type="reset"],
+.frmcontent input[type="button"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #CCC solid;
+}
+
+.formtaikhoan input[type="submit"]:hover,
+.frmcontent input[type="submit"]:hover,
+.frmcontent input[type="reset"]:hover,
+.frmcontent input[type="button"]:hover {
+    background-color: #CCC;
+}
+
+.formtaikhoan li a {
+    color: teal;
+    text-decoration: none;
+}
+
+.formtaikhoan li a:hover {
+    color: #060;
+    text-decoration: underline;
+}
+
+
+/* menu dọc*/
+
+.menudoc ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-bottom: 1px #CCC solid;
+}
+
+.menudoc ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.menudoc ul li:hover {
+    background-color: rgb(255, 230, 239);
+}
+
+.searbox input[type="text"] {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #FFF;
+    border: 1px #CCC solid;
+    border-radius: 5px;
+}
+
+.top10 img {
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #CCC solid;
+}
+
+.top10 a {
+    color: #666;
+    text-decoration: none;
+}
+
+.top10 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* Admin*/
+
+.headeradmin {
+    background-image: linear-gradient(120deg, #ffcde0 0%, #5bbeec 50%, #ffcde0 100%);
+    border: 1px #CCC solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.headeradmin h1 {
+    font-size: 2vw;
+}
+
+.frmtitle {
+    background-color: #EEE;
+    border: 1px #CCC solid;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+
+.frmcontent {
+    padding: 20px 0px;
+}
+
+.frmdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdsloai table th {
+    
+    padding: 20px;
+    background-color: #CCC;
+}
+
+/* .frmdsloai table th:nth-child(2) {
+    width: 30%;
+    background-color: #CCC;
+}
+
+.frmdsloai table th:nth-child(3) {
+    width: 40%;
+    background-color: #CCC;
+}
+
+.frmdsloai table th:nth-child(4) {
+    width: 20%;
+    background-color: #CCC;
+} */
+
+.frmdsloai table td {
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+}
+
+/* slideshow */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  /* end slideshow */
+
+.sanphamhome {
+    text-align: center;
+}  
+
+.thongbao {
+    color: red;
+}
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;  
+}
+.cart table,td {
+    border: 1px solid rgb(133, 130, 130);
+    padding: 10px;
+}
+.cart th{
+    background-color: rgb(255, 238, 238);
+    padding: 20px;
+    
+}
+.billform table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.boxcontent_thanhtoan {
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 50px;
+    padding: 20px;   
+}
+
+.billform input[type="text"] {
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
